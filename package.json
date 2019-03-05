@@ -1,12 +1,12 @@
 {
-  "name": "selaDanti",
+  "name": "seladanti",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./piblic/index.js",
   "scripts": {
-    "heroku-postbuild": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "build": "webpack --mode production",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
